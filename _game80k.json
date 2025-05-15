@@ -1,0 +1,1850 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 230,
+    "major": 5,
+    "minor": 5,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": false,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "276cead1-879a-4bd4-b37b-958fa4f004f2",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "version": "1.0.0",
+    "name": "_game80k",
+    "description": "",
+    "author": "",
+    "windowWidth": 1600,
+    "windowHeight": 900,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": ""
+    },
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "assets/frontdraft.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frontdraft.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/a19505f8-4491-4041-9499-d005433b6a9e/resources/89b7aa3890f21d8115878aff03c22e69de7a40da3850f2f174b810d6936e9d01-frontdraft.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/hole_filled.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "hole_filled",
+        "smoothed": true,
+        "userAdded": false
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Untitled_32scene",
+      "name": "Untitled scene",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": true,
+        "gridType": "rectangular",
+        "gridWidth": 100,
+        "gridHeight": 100,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": true,
+        "zoomFactor": 0.870023285985733,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 100,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Player",
+          "persistentUuid": "64f3a185-b58f-4887-887b-45bd6c4d0a43",
+          "width": 100,
+          "x": 600,
+          "y": 300,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Wall",
+          "name": "Wall",
+          "persistentUuid": "382fb33b-6a4a-4f83-9645-100f3674d689",
+          "width": 0,
+          "x": 800,
+          "y": 300,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Wall",
+          "name": "Wall",
+          "persistentUuid": "05e94aa5-63ab-4f6c-8c33-5ec489e8aca6",
+          "width": 0,
+          "x": 800,
+          "y": 400,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Wall",
+          "name": "Wall",
+          "persistentUuid": "49e25f8b-ca77-4dc8-8dbf-2db976de0cdc",
+          "width": 0,
+          "x": 800,
+          "y": 200,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Player",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "GridMovement",
+              "type": "TimelineMechanic::GridMovement",
+              "TweenDuration": 0.1,
+              "CooldownDuration": 0,
+              "Tween": "Tween",
+              "IsPlayerControlled": true,
+              "TimelineEntity": "TimelineEntity"
+            },
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Kinematic",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 100,
+              "shapeDimensionB": 100,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 1,
+              "masks": 1
+            },
+            {
+              "name": "TimelineEntity",
+              "type": "TimelineMechanic::TimelineEntity",
+              "IsRecording": 1.265e-321
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "frontdraft.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 2048,
+                            "y": 0
+                          },
+                          {
+                            "x": 2048,
+                            "y": 2048
+                          },
+                          {
+                            "x": 0,
+                            "y": 2048
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Wall",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Kinematic",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 100,
+              "shapeDimensionB": 100,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 1,
+              "masks": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "hole_filled",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "hole_filled",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 100
+                          },
+                          {
+                            "x": 0,
+                            "y": 100
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Player"
+          },
+          {
+            "objectName": "Wall"
+          }
+        ]
+      },
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Wall",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "GridMovement",
+          "type": "TimelineMechanic::GridMovement"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "gravityX": 0,
+          "gravityY": 9.8,
+          "worldScale": 100,
+          "scaleX": 100,
+          "scaleY": 100
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "TimelineEntity",
+          "type": "TimelineMechanic::TimelineEntity"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "author": "",
+      "category": "",
+      "extensionNamespace": "",
+      "fullName": "",
+      "gdevelopVersion": "",
+      "helpPath": "",
+      "iconUrl": "",
+      "name": "TimelineMechanic",
+      "previewIconUrl": "",
+      "shortDescription": "",
+      "version": "",
+      "description": "",
+      "tags": [],
+      "authorIds": [],
+      "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [
+        {
+          "name": "CellWidth",
+          "type": "number",
+          "value": 100
+        },
+        {
+          "name": "CellHeight",
+          "type": "number",
+          "value": 100
+        },
+        {
+          "name": "GridOffsetX",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "GridOffsetY",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Timeline",
+          "type": "array",
+          "children": []
+        },
+        {
+          "name": "TimelineIndex",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "eventsFunctions": [
+        {
+          "fullName": "",
+          "functionType": "Action",
+          "name": "recordAction",
+          "sentence": "Record object #_PARAM1_: _PARAM2_ with metadata \"_PARAM3_\"",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": "",
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "parameters": [
+            {
+              "description": "",
+              "name": "Id",
+              "type": "expression"
+            },
+            {
+              "description": "",
+              "name": "ActionType",
+              "supplementaryInformation": "[\"MOVE\"]",
+              "type": "stringWithSelector"
+            },
+            {
+              "description": "",
+              "name": "Data",
+              "type": "string"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Snap a given number to the scene grid horizontally",
+          "fullName": "Snap to grid horizontally",
+          "functionType": "Expression",
+          "name": "ApplyXGrid",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "CellWidth * round((Number - GridOffsetX) / CellWidth) + GridOffsetX"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "variable"
+          },
+          "parameters": [
+            {
+              "description": "Number",
+              "name": "Number",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Snap a given number to the scene grid vertically",
+          "fullName": "Snap to grid vertically",
+          "functionType": "Expression",
+          "name": "ApplyYGrid",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "CellHeight* round((Number - GridOffsetY) / CellHeight) + GridOffsetY"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "variable"
+          },
+          "parameters": [
+            {
+              "description": "Number",
+              "name": "Number",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "fullName": "Advance tuen",
+          "functionType": "Action",
+          "name": "advanceTurn",
+          "sentence": "Advance the current turn",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": "console.log(\"advance\")",
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        }
+      ],
+      "eventsBasedBehaviors": [
+        {
+          "description": "",
+          "fullName": "",
+          "name": "GridMovement",
+          "objectType": "Sprite",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPreEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "DepartScene"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SnapToGrid::SnapObjectToVirtualGrid"
+                      },
+                      "parameters": [
+                        "",
+                        "Object",
+                        "CellWidth",
+                        "CellHeight",
+                        "GridOffsetX",
+                        "GridOffsetY",
+                        ""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
+                            "IsPlayerControlled",
+                            "True",
+                            "="
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "Object",
+                            "\"MoveCooldown\""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "Player Controls",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CompareObjectTimer"
+                          },
+                          "parameters": [
+                            "Object",
+                            "\"MoveCooldown\"",
+                            ">=",
+                            "CooldownDuration"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "KeyFromTextPressed"
+                              },
+                              "parameters": [
+                                "",
+                                "\"w\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "KeyFromTextPressed"
+                              },
+                              "parameters": [
+                                "",
+                                "\"Up\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "KeyFromTextPressed"
+                              },
+                              "parameters": [
+                                "",
+                                "\"s\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "KeyFromTextPressed"
+                              },
+                              "parameters": [
+                                "",
+                                "\"Down\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "KeyFromTextPressed"
+                              },
+                              "parameters": [
+                                "",
+                                "\"d\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "KeyFromTextPressed"
+                              },
+                              "parameters": [
+                                "",
+                                "\"Right\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "KeyFromTextPressed"
+                              },
+                              "parameters": [
+                                "",
+                                "\"a\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "KeyFromTextPressed"
+                              },
+                              "parameters": [
+                                "",
+                                "\"Left\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        },
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
+                            "IsPlayerControlled",
+                            "True",
+                            "="
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "Object",
+                            "\"MoveCooldown\""
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Or"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "KeyFromTextPressed"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "\"w\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "KeyFromTextPressed"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "\"Up\""
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "TimelineMechanic::GridMovement::move"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                "0",
+                                "-1",
+                                "-1"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Or"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "KeyFromTextPressed"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "\"s\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "KeyFromTextPressed"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "\"Down\""
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "TimelineMechanic::GridMovement::move"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                "0",
+                                "1",
+                                "1"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Or"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "KeyFromTextPressed"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "\"a\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "KeyFromTextPressed"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "\"Left\""
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "TimelineMechanic::GridMovement::move"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                "-1",
+                                "0",
+                                "0"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Or"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "KeyFromTextPressed"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "\"d\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "KeyFromTextPressed"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "\"Right\""
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "TimelineMechanic::GridMovement::move"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                "1",
+                                "0",
+                                "0"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TimelineMechanic::GridMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "Move",
+              "functionType": "Action",
+              "name": "move",
+              "sentence": "Move _PARAM0_ by (_PARAM2_, _PARAM3_) cells along the grid",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "TimelineMechanic::GridMovement::hitCheck"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "Object.CenterX() + X * CellWidth",
+                        "Object.CenterY() + Y * CellHeight",
+                        "CollisionLayer",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Tween",
+                        "\"MoveTween\"",
+                        "Object.X() + X * CellWidth",
+                        "Object.Y()+Y*CellHeight",
+                        "\"easeOutQuint\"",
+                        "TweenDuration",
+                        ""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "IsRecording",
+                            "True"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TimelineMechanic::TimelineEntity::recordMoveAction"
+                          },
+                          "parameters": [
+                            "Object",
+                            "TimelineEntity",
+                            "Object.X() + X * CellWidth",
+                            "Object.Y()+Y*CellHeight",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TimelineMechanic::advanceTurn"
+                          },
+                          "parameters": [
+                            "",
+                            ""
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "ObjectVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "Object",
+                                "IsPlayerControlled",
+                                "True"
+                              ]
+                            }
+                          ],
+                          "actions": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TimelineMechanic::GridMovement",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Cells to move in the X direction",
+                  "name": "X",
+                  "type": "expression"
+                },
+                {
+                  "description": "Cells to move in the Y direction",
+                  "name": "Y",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "Collider Check",
+              "functionType": "Condition",
+              "name": "hitCheck",
+              "sentence": "Theres a collider near _PARAM0_ at position (_PARAM2_, _PARAM3_) on layer \"_PARAM4_\"",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::JsCode",
+                  "inlineCode": [
+                    "const layerMask = eventsFunctionContext.getArgument(\"LayerMask\")",
+                    "const x = eventsFunctionContext.getArgument(\"X\")",
+                    "const y = eventsFunctionContext.getArgument(\"Y\")",
+                    "",
+                    "const hit = (aabb) => ",
+                    "    (aabb.min[0] <= x && x <= aabb.max[0]) && ",
+                    "    (aabb.min[1] <= y && y <= aabb.max[1])",
+                    "",
+                    "var wallInstances = [];",
+                    "runtimeScene._instances.keys(wallInstances);",
+                    "wallInstances = wallInstances",
+                    "    .flatMap((key) => runtimeScene.getObjects(key))",
+                    "    .filter((inst) => inst.layer === layerMask)",
+                    "",
+                    "eventsFunctionContext.returnValue = !wallInstances.some((w) => hit(w.aabb))"
+                  ],
+                  "parameterObjects": "Object",
+                  "useStrict": true,
+                  "eventsSheetExpanded": false
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TimelineMechanic::GridMovement",
+                  "type": "behavior"
+                },
+                {
+                  "description": "",
+                  "name": "X",
+                  "type": "expression"
+                },
+                {
+                  "description": "",
+                  "name": "Y",
+                  "type": "expression"
+                },
+                {
+                  "description": "",
+                  "name": "LayerMask",
+                  "type": "string"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "Move Tween Duration",
+              "functionType": "Expression",
+              "name": "getTweenDuration",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "TweenDuration"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TimelineMechanic::GridMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "Move Cooldown Duration",
+              "functionType": "Expression",
+              "name": "getCooldownDuration",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "CooldownDuration"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TimelineMechanic::GridMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "Move Cooldown Duration",
+              "functionType": "StringExpression",
+              "name": "getCollisionLayer",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnString"
+                      },
+                      "parameters": [
+                        "CollisionLayer"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "string"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TimelineMechanic::GridMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "Move Cooldown Duration",
+              "functionType": "Expression",
+              "name": "getIsPlayerControlled",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "IsPlayerControlled",
+                        "True",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "IsPlayerControlled",
+                        "False",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "CollisionLayer"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TimelineMechanic::GridMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "onCreated",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TimelineMechanic::GridMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "false",
+              "type": "Boolean",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "name": "IsPlayerControlled"
+            },
+            {
+              "value": "",
+              "type": "Number",
+              "unit": "Second",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "name": "TweenDuration"
+            },
+            {
+              "value": "",
+              "type": "Number",
+              "unit": "Second",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "name": "CooldownDuration"
+            },
+            {
+              "value": "Wall",
+              "type": "String",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "name": "CollisionLayer"
+            },
+            {
+              "value": "",
+              "type": "Behavior",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [
+                "Tween::TweenBehavior"
+              ],
+              "name": "Tween"
+            },
+            {
+              "value": "",
+              "type": "Behavior",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [
+                "TimelineMechanic::TimelineEntity"
+              ],
+              "name": "TimelineEntity"
+            }
+          ],
+          "sharedPropertyDescriptors": []
+        },
+        {
+          "description": "",
+          "fullName": "",
+          "name": "TimelineEntity",
+          "objectType": "Sprite",
+          "eventsFunctions": [
+            {
+              "fullName": "Is Recording",
+              "functionType": "Action",
+              "name": "getIsRecording",
+              "sentence": "Is _PARAM0_ recording?",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "IsRecording",
+                        "True",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "IsRecording",
+                        "False",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "CollisionLayer"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TimelineMechanic::TimelineEntity",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "Record Move Action",
+              "functionType": "Action",
+              "name": "recordMoveAction",
+              "sentence": "Record _PARAM0_ move to (_PARAM2_, _PARAM3_)",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::JsCode",
+                  "inlineCode": [
+                    "const myObject = objects[0]\r",
+                    "const toX = eventsFunctionContext.getArgument(\"toX\")\r",
+                    "const toY = eventsFunctionContext.getArgument(\"toY\")\r",
+                    "\r",
+                    "console.log(`move to ${toX} ${toY}`)"
+                  ],
+                  "parameterObjects": "Object",
+                  "useStrict": true,
+                  "eventsSheetExpanded": false
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TimelineMechanic::TimelineEntity",
+                  "type": "behavior"
+                },
+                {
+                  "description": "",
+                  "name": "toX",
+                  "type": "expression"
+                },
+                {
+                  "description": "",
+                  "name": "toY",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "false",
+              "type": "Boolean",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "name": "IsRecording"
+            }
+          ],
+          "sharedPropertyDescriptors": []
+        }
+      ],
+      "eventsBasedObjects": []
+    },
+    {
+      "author": "@Lizard-13",
+      "category": "",
+      "extensionNamespace": "",
+      "fullName": "Snap objects to a virtual grid",
+      "gdevelopVersion": "",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLXZpZXctZ3JpZC1wbHVzLW91dGxpbmUiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMyAyMUgxMVYxM0gzTTUgMTVIOVYxOUg1TTMgMTFIMTFWM0gzTTUgNUg5VjlINU0xMyAzVjExSDIxVjNNMTkgOUgxNVY1SDE5TTE4IDE2SDIxVjE4SDE4VjIxSDE2VjE4SDEzVjE2SDE2VjEzSDE4WiIgLz48L3N2Zz4=",
+      "name": "SnapToGrid",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/view-grid-plus-outline.svg",
+      "shortDescription": "Action to snap objects to a virtual grid during the game.",
+      "version": "0.0.3",
+      "description": [
+        "An action which, when applied on some objects, snap these objects to a *virtual grid*, with cells having customizable width and height.",
+        "",
+        "Useful for level editors or putting objects on a tiled based map (RPG, strategy games, or any tiled based game in general)."
+      ],
+      "tags": [
+        "snap",
+        "grid",
+        "positioning",
+        "tiles"
+      ],
+      "authorIds": [],
+      "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
+      "eventsFunctions": [
+        {
+          "description": "Snap object to a virtual grid (i.e: this is not the grid used in the editor)",
+          "fullName": "Snap objects to a virtual grid",
+          "functionType": "Action",
+          "name": "SnapObjectToVirtualGrid",
+          "sentence": "Snap _PARAM1_ to a virtual grid using cells with  width: _PARAM2_px, height _PARAM3_px and an offset position (_PARAM4_; _PARAM5_)",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Round the Object position to snap to the in-game grid"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "Object",
+                    "=",
+                    "GetArgumentAsNumber(\"CellWidth\") * round((Object.X() - GetArgumentAsNumber(\"OffsetX\")) / GetArgumentAsNumber(\"CellWidth\")) + GetArgumentAsNumber(\"OffsetX\")",
+                    "=",
+                    "GetArgumentAsNumber(\"CellHeight\") * round((Object.Y() - GetArgumentAsNumber(\"OffsetY\")) / GetArgumentAsNumber(\"CellHeight\")) + GetArgumentAsNumber(\"OffsetY\")"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Objects to snap to the virtual grid",
+              "name": "Object",
+              "type": "objectList"
+            },
+            {
+              "description": "Width of a cell of the virtual grid (in pixels)",
+              "name": "CellWidth",
+              "type": "expression"
+            },
+            {
+              "description": "Height of a cell of the virtual grid (in pixels)",
+              "name": "CellHeight",
+              "type": "expression"
+            },
+            {
+              "description": "Offset on the X axis of the virtual grid (in pixels)",
+              "name": "OffsetX",
+              "type": "expression"
+            },
+            {
+              "description": "Offset on the Y axis of the virtual grid (in pixels)",
+              "name": "OffsetY",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "eventsBasedBehaviors": [],
+      "eventsBasedObjects": []
+    }
+  ],
+  "externalLayouts": []
+}
