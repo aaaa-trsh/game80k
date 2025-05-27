@@ -335,6 +335,30 @@
         "name": "assets\\clouds.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "aa.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "aa.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Explosion4.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "97e28ff9efe9cca3975d186f4921af8c45a1d3dcdec61c1182de46c259ef6dea_Explosion 3.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Sound/97e28ff9efe9cca3975d186f4921af8c45a1d3dcdec61c1182de46c259ef6dea_Explosion 3.aac",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -2260,6 +2284,18 @@
                 "\"Player\"",
                 "18",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "aa.wav",
+                "yes",
+                "100",
+                "1"
               ]
             }
           ]
@@ -5242,7 +5278,7 @@
                   "inlineCode": "const be = objects[0].getBehavior(\"BombEntity\").cacheState()",
                   "parameterObjects": "Object",
                   "useStrict": true,
-                  "eventsSheetExpanded": false
+                  "eventsSheetExpanded": true
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -5274,7 +5310,20 @@
                       ]
                     }
                   ],
-                  "actions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "97e28ff9efe9cca3975d186f4921af8c45a1d3dcdec61c1182de46c259ef6dea_Explosion 3.aac",
+                        "",
+                        "100",
+                        "1"
+                      ]
+                    }
+                  ],
                   "events": [
                     {
                       "type": "BuiltinCommonInstructions::Standard",
