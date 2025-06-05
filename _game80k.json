@@ -746,6 +746,92 @@
         "name": "assets\\concept.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/MetalV1_Walk_09.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "5d33626dc03bae5fbfae5b5f26275632212795bef4927c4c73506920a9c50da6_MetalV1_Walk_09.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/SoundEffects/Nox Footsteps/Metal/Walk/5d33626dc03bae5fbfae5b5f26275632212795bef4927c4c73506920a9c50da6_MetalV1_Walk_09.wav",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Explosion 1.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "68d16e38f82501c538c69cacf2f2491b4ff15cb34fa3ad08ce8e9445b4f1812a_Explosion 1.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Sound/68d16e38f82501c538c69cacf2f2491b4ff15cb34fa3ad08ce8e9445b4f1812a_Explosion 1.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "../../Downloads/dreamblast_main_menu_soundtrack.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "..\\..\\Downloads\\dreamblast_main_menu_soundtrack.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/New Adventure.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "1c67c5b43b781d75dde2857a69095dd9232b1ef5e65327f81fe0c846696c538b_New Adventure.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/New Hero In Town/1c67c5b43b781d75dde2857a69095dd9232b1ef5e65327f81fe0c846696c538b_New Adventure.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "../../Downloads/714693__michijung__dreamy-clean-guitar.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "..\\..\\Downloads\\714693__michijung__dreamy-clean-guitar.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Click_03.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "f5d3ffae911b06f5a36cc912f77f25acdd0a6e0e2fad464b2a524ec3064881f2_Click_03.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Interface Bleeps/f5d3ffae911b06f5a36cc912f77f25acdd0a6e0e2fad464b2a524ec3064881f2_Click_03.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "../../Downloads/Untitled video - Made with Clipchamp.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "..\\..\\Downloads\\Untitled video - Made with Clipchamp.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -4078,6 +4164,18 @@
                     "SimplePlayer",
                     "PlayerEntitySimple",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "..\\..\\Downloads\\Untitled video - Made with Clipchamp.wav",
+                    "",
+                    "50",
+                    "1"
                   ]
                 }
               ]
@@ -7999,6 +8097,18 @@
                     "Player",
                     "PlayerEntity",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "..\\..\\Downloads\\Untitled video - Made with Clipchamp.wav",
+                    "",
+                    "50",
+                    "1"
                   ]
                 }
               ]
@@ -12185,6 +12295,18 @@
                     "Player",
                     "PlayerEntity",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "..\\..\\Downloads\\Untitled video - Made with Clipchamp.wav",
+                    "",
+                    "50",
+                    "1"
                   ]
                 }
               ]
@@ -16648,6 +16770,18 @@
                     "Player",
                     "PlayerEntity",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "..\\..\\Downloads\\Untitled video - Made with Clipchamp.wav",
+                    "",
+                    "50",
+                    "1"
                   ]
                 }
               ]
@@ -21161,6 +21295,18 @@
                     "PlayerEntity",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "..\\..\\Downloads\\Untitled video - Made with Clipchamp.wav",
+                    "",
+                    "50",
+                    "1"
+                  ]
                 }
               ]
             },
@@ -24860,6 +25006,18 @@
           "actions": [
             {
               "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "1c67c5b43b781d75dde2857a69095dd9232b1ef5e65327f81fe0c846696c538b_New Adventure.aac",
+                "",
+                "50",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "TimelineMechanic::initializeTimeline"
               },
               "parameters": [
@@ -25017,7 +25175,7 @@
                     "\"SceneOut\"",
                     "255",
                     "\"easeInCubic\"",
-                    "3",
+                    "5.75",
                     ""
                   ]
                 }
@@ -25034,7 +25192,7 @@
                     "",
                     "\"GoToNext\"",
                     ">=",
-                    "4.5"
+                    "6"
                   ]
                 }
               ],
@@ -26257,6 +26415,18 @@
           "actions": [
             {
               "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "..\\..\\Downloads\\714693__michijung__dreamy-clean-guitar.wav",
+                "",
+                "60",
+                "1.25"
+              ]
+            },
+            {
+              "type": {
                 "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
               },
               "parameters": [
@@ -26343,6 +26513,18 @@
                 "0.2",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "f5d3ffae911b06f5a36cc912f77f25acdd0a6e0e2fad464b2a524ec3064881f2_Click_03.aac",
+                "",
+                "40",
+                "1"
+              ]
             }
           ]
         },
@@ -26409,6 +26591,18 @@
                 "=",
                 "\"Tutorial1\""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "f5d3ffae911b06f5a36cc912f77f25acdd0a6e0e2fad464b2a524ec3064881f2_Click_03.aac",
+                "",
+                "40",
+                "1"
+              ]
             }
           ]
         },
@@ -26451,6 +26645,18 @@
                 "",
                 "\"Credits\""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "f5d3ffae911b06f5a36cc912f77f25acdd0a6e0e2fad464b2a524ec3064881f2_Click_03.aac",
+                "",
+                "40",
+                "1"
+              ]
             }
           ]
         },
@@ -26492,6 +26698,18 @@
               "parameters": [
                 "",
                 "\"Credits\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "f5d3ffae911b06f5a36cc912f77f25acdd0a6e0e2fad464b2a524ec3064881f2_Click_03.aac",
+                "",
+                "40",
+                "1"
               ]
             }
           ]
@@ -27115,7 +27333,20 @@
               "parameters": []
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "f5d3ffae911b06f5a36cc912f77f25acdd0a6e0e2fad464b2a524ec3064881f2_Click_03.aac",
+                "",
+                "40",
+                "1"
+              ]
+            }
+          ],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -27222,6 +27453,18 @@
                     "=",
                     "\"Don't worry, I'll defeat them!\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "1c67c5b43b781d75dde2857a69095dd9232b1ef5e65327f81fe0c846696c538b_New Adventure.aac",
+                    "",
+                    "40",
+                    "1"
+                  ]
                 }
               ]
             },
@@ -27279,6 +27522,18 @@
                   "parameters": [
                     "Subtitles",
                     "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "68d16e38f82501c538c69cacf2f2491b4ff15cb34fa3ad08ce8e9445b4f1812a_Explosion 1.aac",
+                    "",
+                    "50",
+                    "1"
                   ]
                 }
               ]
@@ -27396,6 +27651,18 @@
               "parameters": [
                 "",
                 "\"Cool\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "..\\..\\Downloads\\dreamblast_main_menu_soundtrack.wav",
+                "",
+                "50",
+                "1"
               ]
             }
           ]
@@ -28748,7 +29015,20 @@
                           "parameters": []
                         }
                       ],
-                      "actions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "5d33626dc03bae5fbfae5b5f26275632212795bef4927c4c73506920a9c50da6_MetalV1_Walk_09.wav",
+                            "",
+                            "40",
+                            "1"
+                          ]
+                        }
+                      ],
                       "events": [
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -30919,7 +31199,20 @@
                           "parameters": []
                         }
                       ],
-                      "actions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "5d33626dc03bae5fbfae5b5f26275632212795bef4927c4c73506920a9c50da6_MetalV1_Walk_09.wav",
+                            "",
+                            "40",
+                            "1"
+                          ]
+                        }
+                      ],
                       "events": [
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -31999,6 +32292,18 @@
                         "Object.X()",
                         "Object.Y()",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "68d16e38f82501c538c69cacf2f2491b4ff15cb34fa3ad08ce8e9445b4f1812a_Explosion 1.aac",
+                        "",
+                        "35",
+                        "1"
                       ]
                     }
                   ],
