@@ -832,6 +832,36 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "../../Downloads/191994__qubodup__countdownboom.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "..\\..\\Downloads\\191994__qubodup__countdownboom.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../Downloads/bomb_explosion.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "..\\..\\Downloads\\bomb_explosion.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../Downloads/bomexplodee.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "..\\..\\Downloads\\bomexplodee.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -28900,6 +28930,18 @@
                             "Object",
                             "Behavior",
                             ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "..\\..\\Downloads\\bomexplodee.wav",
+                            "",
+                            "25",
+                            "1.75"
                           ]
                         }
                       ]
